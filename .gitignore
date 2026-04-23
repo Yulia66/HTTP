@@ -1,0 +1,50 @@
+# Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Binary files
+client
+server
+parser
+Project1/client
+Project1/server
+Project1/parser
+Project1/*.exe
+Project1/*.o
+
+# IDE files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Debug/Release folders
+Debug/
+Release/
+x64/
+x86/
+
+# vcpkg
+vcpkg/
+Project1/vcpkg/
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+*.ipch
+
+# OS files
+.DS_Store
+Thumbs.db
